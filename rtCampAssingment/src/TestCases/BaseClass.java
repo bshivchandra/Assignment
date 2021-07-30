@@ -9,13 +9,13 @@ import org.testng.annotations.BeforeClass;
 
 		String baseurl="https://qa.rtcamp.net/activity/";
 //		String username="demo"; 
-//		String password="demo";  
+//		String password="demo"; "C:\\Users\\shiv\\eclipse-workspace2\\chrome 
 		WebDriver driver;
 		
 		@BeforeClass
 		public void setUp()
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\shiv\\eclipse-workspace2\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","./drivers\\chromedriver.exe");
 		    driver = new ChromeDriver();
 		    driver.manage().window().maximize();
 			driver.get(baseurl);

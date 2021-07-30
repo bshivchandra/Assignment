@@ -3,20 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.MediaLikeTC">
-        <methods>
-          <include name="likes"/>
-          <include name="setUp"/>
-          <include name="tearEnd"/>
-        </methods>
-      </class> <!-- TestCases.MediaLikeTC -->
-      <class name="TestCases.CoverImageTC">
+      <class name="TestCases.LoginTC">
         <methods>
           <include name="setUp"/>
-          <include name="image"/>
+          <include name="loginTest"/>
           <include name="tearEnd"/>
         </methods>
-      </class> <!-- TestCases.CoverImageTC -->
+      </class> <!-- TestCases.LoginTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
